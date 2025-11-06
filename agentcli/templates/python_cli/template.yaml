@@ -1,0 +1,20 @@
+name: Python CLI Tool
+description: Python 命令行工具项目模板
+type: python_cli
+variables:
+  - project_name
+  - module_name
+  - description
+  - author_name
+  - author_email
+files:
+  - __init__.py
+  - cli.py
+  - core.py
+  - test_core.py
+  - README.md
+  - requirements.txt
+  - setup.py
+  - .gitignore
+  - .env.example
+

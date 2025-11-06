@@ -1,0 +1,22 @@
+name: FastAPI Web Project
+description: FastAPI Web API 项目模板
+type: fastapi
+variables:
+  - project_name
+  - description
+  - author_name
+  - database_type
+files:
+  - main.py
+  - routes.py
+  - config.py
+  - database.py
+  - models.py
+  - test_api.py
+  - README.md
+  - requirements.txt
+  - Dockerfile
+  - docker-compose.yml
+  - .gitignore
+  - .env.example
+

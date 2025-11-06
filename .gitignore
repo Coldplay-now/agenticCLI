@@ -50,18 +50,16 @@ htmlcov/
 *.log
 .agentcli/
 
-# AgentCLI generated test projects
+# AgentCLI generated test projects and example projects
 test-*/
 demo-*/
 *-test-*/
 *-demo-*/
-
-# Generated example projects (keep code but ignore git)
-maria1/.git/
-snake2/.git/
-snake3/.git/
-snakegame/.git/
-test-file-renamer/.git/
+maria1/
+snake2/
+snake3/
+snakegame/
+test-file-renamer/
 
 # Temporary files
 *.tmp
@@ -93,3 +91,16 @@ dmypy.json
 # Local development
 local/
 local_*/
+
+# Development reports and summaries (temporary documentation)
+ERROR_SUMMARY.md
+FULL_TEST_REPORT.md
+IMPLEMENTATION_SUMMARY.md
+OPTIMIZATION_SUMMARY.md
+TEST_REPORT.md
+
+# Keep these documentation files (do not ignore):
+# README.md - Main project documentation
+# PRD_AgentCLI_v0.1.0.md - Product requirements document
+# QUICKSTART.md - Quick start guide
+# systemprompt.md - AI system prompt configuration
